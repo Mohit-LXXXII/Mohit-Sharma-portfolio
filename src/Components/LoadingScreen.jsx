@@ -19,7 +19,7 @@ export const LoadingScreen=({onComplete})=>{
 
         return ()=>clearInterval(interval)
     },[onComplete])
-    return <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
+    return <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center px-4 md:justify-start md:pt-20 lg:pt-32">
 
         <div className="mb-4 text-4xl font-mono font-bold">
             {text}<span className="animate-blink ml-1">|</span>

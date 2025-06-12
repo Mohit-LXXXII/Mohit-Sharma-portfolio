@@ -21,10 +21,11 @@ export const Contact = () => {
         })
     }
 
-    return <section className="min-h-screen flex items-center justify-center py-20
+    return <section className="min-h-screen flex flex-col items-center justify-center py-16 sm:py-20 md:py-24 lg:py-32
+
     " id="contact">
         <RevealOnScroll>
-            <div className="px-4 w-150 ">
+            <div className="w-100 max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl px-4 sm:px-6 md:px-8">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 text-center bg-clip-text text-transparent">Get in Touch</h2>
                 <form action="" className="space-y-6  " onSubmit={handleSubmit}>
                     <div className="relative">
